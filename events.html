@@ -145,9 +145,50 @@
             </div> 
 
 
-            <div class="col-md-5" style="border: 1px solid #ddd;">
+            <div class="col-md-5" style="border: 1px solid #ddd; min-height: 1000px;">
               <h3 style="font-size: 15px; color: #D32232; text-align: center;"><b>Create your event in just a minute</b></h3>
-
+              <label>Category</label>
+              <select class="form-control" style="margin: 5px;">
+                <option>Birthday</option>
+                <option>Birthday</option>
+                <option>Birthday</option>
+                <option>Birthday</option>
+                <option>Birthday</option>
+              </select>
+              <label>Event title</label>
+              <input type="text" class="form-control" placeholder="Keep event title sweet & short" style="margin: 5px;">
+              <label>Location</label>
+              <input type="text" class="form-control" placeholder="Venue name" style="margin: 5px;">
+              <input type="text" class="form-control" placeholder="Street number" style="margin: 5px;">
+              <input type="text" class="form-control" placeholder="Landmarks" style="margin: 5px;">
+              <input type="text" class="form-control" placeholder="Area" style="margin: 5px;">
+              <div class="col-md-6"><input type="text" class="form-control" placeholder="City" style="margin-left: -10px;"></div>
+              <div class="col-md-6"><input type="text" class="form-control" placeholder="Pin Code" style="margin-left: 20px;"></div>
+              <div style="margin: 5px;"></div>
+              <label>Start time</label><br>
+              <div class="col-md-6"><input type="date" class="form-control" min="2015-01-01" style="margin-left: -10px;"></div>
+              <div class="col-md-6"><input type="text" class="form-control" placeholder="Start Time" style="margin-left: 20px;"></div>
+              <label>End time</label><br>
+              <div class="col-md-6"><input type="date" class="form-control" min="2015-01-01" style="margin-left: -10px;"></div>
+              <div class="col-md-6"><input type="text" class="form-control" placeholder="End Time" style="margin-left: 20px;"></div>
+              <label>Event Description</label>
+              <textarea class="form-control"></textarea>
+              <label>Who can join this event</label><br>
+              <div class="col-md-4">               
+                  <select class="form-control">  <!-- multiple="multiple" -->
+                    <option>Yelahanka</option>
+                    <option>Preferred 1</option>
+                    <option>Preferred 2</option>
+                    <option>Preferred 3</option>
+                    <option>Preferred 4</option>
+                    <option>Others</option>
+                  </select> &nbsp;
+              </div>
+              <input type="radio" name="join">Public &nbsp;
+              <input type="radio" name="join">Invitation &nbsp;
+              <input type="radio" name="join">All Friends &nbsp;
+              <div style="padding: 35px 0px 50px 20px"><a href="" class="btn btn-success pull-left">Create Event</a></div>
+              
             </div> 
 
             
@@ -227,7 +268,7 @@
               </div> 
             </div>
 
-            <div class="col-md-4 col-md-offset-2 pull-right">
+            <div class="col-md-4 pull-right">
               <div class="col-md-12">
                 <div class="panel panel-default">
                   <div class="panel-heading">
@@ -288,7 +329,7 @@
               </div> 
             </div>
 
-            <div class="col-md-4 col-md-offset-8 pull-right">
+            <div class="col-md-4 pull-right">
               <div class="col-md-12">
                 <div class="panel panel-default">
                   <div class="panel-heading">
