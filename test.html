@@ -1,0 +1,25 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function showHide() 
+        {
+            if(document.getElementById("hide_checkbox").checked) 
+            {
+                document.getElementById("hidden_html").style.display = ""; // This line makes the DIV visible
+            } 
+            else {
+                document.getElementById("hidden_html").style.display = "none"; // This line hides the DIV
+            }
+        }
+    </script>
+</head>
+<body>
+
+<label><input type="checkbox" id="hide_checkbox" onchange="showHide()"> Show hidden message?</label>
+
+<div id="hidden_html" style="display:none;">
+<p>The fortune you seek is <strong>somewhere else</strong>.</p>
+</div>
+
+</body>
+</html> 
