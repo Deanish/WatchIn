@@ -29,67 +29,6 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/rfile:///D:/Skylabs/watchin/watchin/index.html#espond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script type="text/javascript">
-        function showHide() 
-        {
-            if(document.getElementById("pawn").selectedIndex == 1) 
-            {
-                document.getElementById("book").style.display = ""; // This line makes the DIV visible
-            } 
-            else {            
-                document.getElementById("book").style.display = "none"; // This line hides the DIV
-            }
-            if(document.getElementById("pawn").selectedIndex == 2) 
-            {
-                document.getElementById("computer").style.display = ""; // This line makes the DIV visible
-            } 
-            else {            
-                document.getElementById("computer").style.display = "none"; // This line hides the DIV
-            }
-            if(document.getElementById("pawn").selectedIndex == 3) 
-            {
-                document.getElementById("home").style.display = ""; // This line makes the DIV visible
-            } 
-            else {            
-                document.getElementById("home").style.display = "none"; // This line hides the DIV
-            }
-            if(document.getElementById("pawn").selectedIndex == 4) 
-            {
-                document.getElementById("mobile").style.display = ""; // This line makes the DIV visible
-            } 
-            else {            
-                document.getElementById("mobile").style.display = "none"; // This line hides the DIV
-            }
-            if(document.getElementById("pawn1").selectedIndex == 1) 
-            {
-                document.getElementById("book1").style.display = ""; // This line makes the DIV visible
-            } 
-            else {            
-                document.getElementById("book1").style.display = "none"; // This line hides the DIV
-            }
-            if(document.getElementById("pawn1").selectedIndex == 2) 
-            {
-                document.getElementById("computer1").style.display = ""; // This line makes the DIV visible
-            } 
-            else {            
-                document.getElementById("computer1").style.display = "none"; // This line hides the DIV
-            }
-            if(document.getElementById("pawn1").selectedIndex == 3) 
-            {
-                document.getElementById("home1").style.display = ""; // This line makes the DIV visible
-            } 
-            else {            
-                document.getElementById("home1").style.display = "none"; // This line hides the DIV
-            }
-            if(document.getElementById("pawn1").selectedIndex == 4) 
-            {
-                document.getElementById("mobile1").style.display = ""; // This line makes the DIV visible
-            } 
-            else {            
-                document.getElementById("mobile1").style.display = "none"; // This line hides the DIV
-            }
-        }
-    </script>
   </head>
 
   <body>
@@ -157,56 +96,23 @@
                 <div class="the-icons span3">
                   <i class="icon-basket-alt" style="color: #D32232;"></i>
                   <a href="pawn.html">Pawn Shop</a><br />
-                  <div style="padding-left: 30px;">
-                    <i class="icon-basket-alt" style="color: #D32232;"></i>
-                    <a href="pawn.html">Donate / Sell</a><br />
-                    <select class="form-control" id="pawn" onchange="showHide()">
-                      <option> -- Select category -- </option>
-                      <option>Book</option>
-                      <option>Computer & Electronics</option>
-                      <option>Home & Furniture</option>
-                      <option>Mobile & Tablets</option>
-                    </select> 
-                    <select class="form-control" style="display: none;" id="book">
-                      <option> -- Select sub category  -- </option>
-                      <option>Education & Traning</option>
-                      <option>Literature & Fiction</option>
-                      <option>Non-fiction</option>
-                      <option>Professional</option>
-                      <option>Others</option>
-                    </select> 
-                    <select class="form-control" style="display: none;" id="computer">
-                      <option> -- Select sub category  -- </option>
-                      <option>Desktop, Laptops & Accessories</option>
-                      <option>Camera & Accessories</option>
-                      <option>TV & Accessories</option>
-                      <option>Others</option>
-                    </select> 
-                    <select class="form-control" style="display: none;" id="home">
-                      <option> -- Select sub category  -- </option>
-                      <option>Furnitures</option>
-                      <option>Sofa, Lamp, etc.,</option>
-                      <option>Paintings & Handicrafts</option>
-                      <option>Household items</option>
-                      <option>Others</option>
-                    </select>
-                    <select class="form-control" style="display: none;" id="mobile">
-                      <option> -- Select sub category  -- </option>
-                      <option>Mobiles</option>
-                      <option>Tablets</option>
-                      <option>Accessories</option>
-                      <option>Others</option>
-                    </select>
-                  </div>
                 </div>  
                 <div class="the-icons span3">
                   <i class="icon-home-1" style="color: #D32232;"></i>
                   <a href="places.html">Places</a><br />
-                </div> 
+                </div>
                 <div class="the-icons span3">
                   <i class="icon-tint" style="color: #D32232;"></i>
                   <a href="sos.html">Save Our Souls</a><br />
-                </div> 
+                  <div style="padding-left: 30px;">
+                    <i class="icon-heart" style="color: #D32232;"></i>
+                    <a href="sos.html">Request Blood</a><br />
+                    <i class="icon-info" style="color: #D32232;"></i>
+                    <a href="pmit.html">Put Me In Touch</a><br />
+                    <i class="icon-dollar" style="color: #D32232;"></i>
+                    <a href="donate.html">Donate For a Cause</a><br />
+                  </div>
+                </div>  
                 <div class="the-icons span3">
                   <i class="icon-award-1" style="color: #D32232;"></i>
                   <a href="recommendation.html">Recommendation</a><br />
@@ -243,109 +149,10 @@
 
 
             <div class="col-md-5" style="min-height: 1000px;">
-              <h3 style="font-size: 15px; color: #D32232; text-align: center;"><b>Donate / Sell your product</b></h3>
-              <label>Category</label><br>
               <div class="row">
-                <div class="col-md-6">
-                  <select class="form-control" id="pawn1" onchange="showHide()">
-                    <option> -- Select category -- </option>
-                    <option>Book</option>
-                    <option>Computer & Electronics</option>
-                    <option>Home & Furniture</option>
-                    <option>Mobile & Tablets</option>
-                  </select>
+                <div class="col-md-12">
+                  <h3 style="font-size: 15px; color: #D32232; text-align: center;"><b>Donate for NGO's while you shop online</b></h3>              
                 </div>
-                <div class="col-md-6"> 
-                  <select class="form-control" style="display: none;" id="book1">
-                      <option> -- Select sub category  -- </option>
-                    <option>Education & Traning</option>
-                    <option>Literature & Fiction</option>
-                    <option>Non-fiction</option>
-                    <option>Professional</option>
-                    <option>Others</option>
-                  </select> 
-                  <select class="form-control" style="display: none;" id="computer1">
-                      <option> -- Select sub category  -- </option>
-                    <option>Desktop, Laptops & Accessories</option>
-                    <option>Camera & Accessories</option>
-                    <option>TV & Accessories</option>
-                    <option>Others</option>
-                  </select> 
-                  <select class="form-control" style="display: none;" id="home1">
-                      <option> -- Select sub category  -- </option>
-                    <option>Furnitures</option>
-                    <option>Sofa, Lamp, etc.,</option>
-                    <option>Paintings & Handicrafts</option>
-                    <option>Household items</option>
-                    <option>Others</option>
-                  </select>
-                  <select class="form-control" style="display: none;" id="mobile1">
-                      <option> -- Select sub category  -- </option>
-                    <option>Mobiles</option>
-                    <option>Tablets</option>
-                    <option>Accessories</option>
-                    <option>Others</option>
-                  </select>
-                </div>
-              </div>
-              <label>Product Title</label>
-              <input type="text" class="form-control" placeholder="Product Title">
-              <label>Model Number</label>
-              <input type="text" class="form-control" placeholder="Product Model Number">
-              <label>Product Description</label>
-              <textarea class="form-control" placeholder="Mention features, defects, warranty, etc." rows="5"></textarea>
-              <label>Upload Product Images</label><br />
-              <div class="col-md-9">
-                <input type="file" class="form-control" style="margin-left: -12px;">
-              </div>
-              <div class="col-md-2">
-                <a href="" class="btn btn-primary">Add More</a>
-              </div>
-              <a href=""><img src="img/default.jpg" width="75px" height="75px" style="margin: 5px;"></a>
-              <a href=""><img src="img/default.jpg" width="75px" height="75px" style="margin: 5px;"></a>
-              <a href=""><img src="img/default.jpg" width="75px" height="75px" style="margin: 5px;"></a>
-              <a href=""><img src="img/default.jpg" width="75px" height="75px" style="margin: 5px;"></a>
-              <a href=""><img src="img/default.jpg" width="75px" height="75px" style="margin: 5px;"></a>
-              <a href=""><img src="img/default.jpg" width="75px" height="75px" style="margin: 5px;"></a>
-              <a href=""><img src="img/default.jpg" width="75px" height="75px" style="margin: 5px;"></a>
-              <a href=""><img src="img/default.jpg" width="75px" height="75px" style="margin: 5px;"></a>
-              <a href=""><img src="img/default.jpg" width="75px" height="75px" style="margin: 5px;"></a>
-              <a href=""><img src="img/default.jpg" width="75px" height="75px" style="margin: 5px;"></a>
-              <label>Reference Links</label><br>
-              <div class="col-md-9">
-              <input type="text" class="form-control" placeholder="Product link in flipkart, snapdeal, amazon, etc.," style="margin-left: -12px;">
-              </div>
-              <div class="col-md-2">
-                <a href="" class="btn btn-primary">Add More</a>
-              </div>
-              <label>Purchase Date</label>
-              <input type="date" class="form-control">
-              <label>Reason for sale</label>
-              <textarea class="form-control" placeholder="Reason for sale" rows="5"></textarea>
-              <label>Any Accessories included</label>
-              <textarea class="form-control" placeholder="Product accessories" rows="5"></textarea>
-              <label>Contact Details</label>
-              <input type="text" class="form-control" placeholder="Phone or Mail details">
-              <label>Pickup Location</label><br />
-              <div class="col-md-9">
-              <select class="form-control" style="margin-left: -12px;">
-                <option>Yelahanka</option>
-                <option>Preferred 1</option>
-                <option>Preferred 2</option>
-                <option>Preferred 3</option>
-                <option>Preferred 4</option>
-                <option>Others</option>
-              </select>
-              </div>
-              <div class="col-md-2">
-                <a href="" class="btn btn-primary">Add More</a>
-              </div>
-              <div class="col-md-12" style="margin-top: 5px;">
-                <a href="" class="btn btn-success" style="margin: 10px;">Donate</a>&nbsp;or<br> 
-                <a href="" class="btn btn-success" style="padding-left: 25px; padding-right: 25px; margin: 10px;">Sell</a>
-                <label style="padding-left: 20px;">₹</label>
-                <input type="text">
-                <input type="checkbox">Negotiable
               </div>
 
             </div> 
